@@ -1,0 +1,70 @@
+/* Sidebar.module.css */
+.hover-bg {
+  transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+}
+
+.nav-link {
+  padding: 12px 20px;
+  border-radius: 10px;
+  border: 1px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 15px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.nav-link:hover {
+  background-color: #1c1c1c;
+  border-color: #555;
+  transform: translateX(5px); /* Subtle hover effect */
+}
+
+.nav-link:active {
+  background-color: #333;
+}
+
+.nav-link svg {
+  color: #fff;
+}
+
+.nav-link:hover svg {
+  color: #ff6347; /* Change icon color on hover */
+}
+
+.nav-link.active {
+  background-color: #444;
+  border-color: #666;
+  font-weight: bold;
+}
+
+.nav-link.active svg {
+  color: #ff6347;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.mr-3 {
+  margin-right: 10px;
+}
+
+/* Box shadow for the sidebar for depth */
+.bg-dark {
+  box-shadow: 4px 0px 8px rgba(0, 0, 0, 0.2);
+}
+
+@media (max-width: 768px) {
+  .bg-dark {
+    width: 200px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+}

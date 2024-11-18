@@ -1,0 +1,173 @@
+/* General Styles */
+.postPageContainer {
+  font-family: "Arial", sans-serif;
+  margin: 20px auto;
+  padding: 20px;
+  max-width: 1200px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: flex-start;
+  margin-bottom: 30px;
+}
+
+.createButton,
+.manageButton {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 10px;
+  transition: background-color 0.3s ease;
+}
+
+.createButton {
+  background-color: #6a1b9a;
+  color: white;
+}
+
+.manageButton {
+  background-color: #4caf50;
+  color: white;
+}
+
+.createButton:hover {
+  background-color: #4a148c;
+}
+
+.manageButton:hover {
+  background-color: #388e3c;
+}
+
+/* Post Creation Form Styles */
+.createPostContainer {
+  width: 75%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  background-color: #fff;
+}
+
+.formGroup {
+  margin-bottom: 15px;
+}
+
+.formGroup label {
+  display: block;
+  font-weight: bold;
+}
+
+.formGroup input,
+.formGroup textarea,
+.formGroup select {
+  width: 100%;
+  padding: 8px;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.submitButton {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.submitButton:hover {
+  background-color: #388e3c;
+}
+
+.message {
+  color: #d32f2f;
+  margin-bottom: 20px;
+}
+
+/* Post List Styles */
+.postList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.postCard {
+  background-color: #fff;
+  width: 100%;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.postCard h3 {
+  font-size: 18px;
+  color: #333;
+}
+
+.category {
+  font-size: 14px;
+  color: #888;
+  margin: 5px 0;
+}
+
+.cardActions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.editDeleteButtons button {
+  padding: 10px 20px;
+  border-radius: 30px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.editButton {
+  background: linear-gradient(90deg, #7a2180, #db0476);
+}
+
+.deleteButton {
+  background: linear-gradient(90deg, #db0476, #ff3d00);
+}
+
+.editButton:hover {
+  background-color: #ff8f00;
+}
+
+.deleteButton:hover {
+  background-color: #c62828;
+}
+
+.readMoreButton {
+  background-color: #00796b;
+  color: white;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 30px;
+  font-size: 16px;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.readMoreButton:hover {
+  background-color: #1565c0;
+}
+
+.dateTime {
+  font-size: 14px;
+  color: #888;
+  margin-top: 10px;
+}
+
+.fullContent {
+  margin-top: 20px;
+  font-size: 16px;
+  line-height: 1.5;
+}

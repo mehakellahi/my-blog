@@ -1,0 +1,13 @@
+.customNavbar {
+  background: linear-gradient(90deg, #7a2180, #db0476);
+  color: white; /* Sets text color to white */
+}
+
+.customNavbar .navbar-brand,
+.customNavbar .nav-item {
+  color: white !important; /* Forces navbar text to be white */
+}
+
+.customNavbar .nav-item:hover {
+  color: #db0476 !important; /* Optional: Changes color on hover */
+}
