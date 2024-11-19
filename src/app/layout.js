@@ -16,10 +16,10 @@ export default function Layout({ children }) {
           {/* You can add additional head elements here, such as title, meta, etc. */}
         </head>
         <body>
-          <div className="d-flex">
-            {/* You can place your sidebar and navbar components here */}
-            <main className="container-fluid">{children}</main>
-          </div>
+          {/* You can place your sidebar and navbar components here */}
+          <main className="container-fluid" style={{ padding: "0px" }}>
+            {children}
+          </main>
         </body>
       </html>
     </>
